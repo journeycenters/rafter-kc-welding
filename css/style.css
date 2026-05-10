@@ -111,11 +111,11 @@ section.tight { padding: clamp(60px, 8vh, 100px) 0; }
 }
 .nav.scrolled { background: rgba(10,10,10,.92); padding-top: 14px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
 .nav .brand { display: flex; align-items: center; gap: 14px; }
-.nav .brand img { height: 56px; width: auto; }
-.nav .menu { display: flex; gap: 36px; align-items: center; }
+.nav .brand img { height: 112px; width: auto; }
+.nav .menu { display: flex; gap: 44px; align-items: center; }
 .nav .menu a {
   font-family: var(--f-mono);
-  font-size: 12px;
+  font-size: 24px;
   letter-spacing: .2em;
   text-transform: uppercase;
   color: var(--ink-2);
@@ -127,7 +127,7 @@ section.tight { padding: clamp(60px, 8vh, 100px) 0; }
   content: ""; position: absolute; bottom: 0; left: 0; right: 0;
   height: 1px; background: var(--arc);
 }
-.nav .cta { padding: 12px 18px; border: 1px solid var(--arc); color: var(--arc); font-family: var(--f-mono); font-size: 12px; letter-spacing: .2em; text-transform: uppercase; transition: all .2s; }
+.nav .cta { padding: 16px 26px; border: 1px solid var(--arc); color: var(--arc); font-family: var(--f-mono); font-size: 24px; letter-spacing: .2em; text-transform: uppercase; transition: all .2s; }
 .nav .cta:hover { background: var(--arc); color: #0a0a0a; }
 
 .nav-toggle { display: none; }
